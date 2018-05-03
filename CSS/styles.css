@@ -1,0 +1,350 @@
+/* Color Palette
+#0E3B43 14,59,67 - warm black
+#357266 53,114,102 - MYRTLE GREEN
+#A3BBAD 163,187,173 - CAMBRIDGE BLUE
+#65532F 101,83,47- DONKEY BROWN
+*/
+
+/* Global styles
+-----------------------------------*/
+html {
+    box-sizing: border-box;
+    background: whitesmoke;
+    font-size: 1.3vw;
+}
+a:visited {
+  color: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.col-n {
+    width: 30%;
+    float: left;
+        min-height: 175px;
+}
+
+.col-w {
+    width: 70vw;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 175px;
+}
+.col-wp {
+  text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.flex-caption {
+  width: 70vw;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  background: rgba(53,114,102,.5);
+  color: black;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+  font-size: 1.5em;
+  line-height: 18px;
+  font-weight: bold;
+}
+.flexslider {
+  width: 90vw;
+  height: 55vw;
+  display: inline-block;
+  align: center;
+  background: #e9e9e9;
+  border: none;
+}
+
+.flexslider .slides img {
+    width: 900px;
+    height: 300px;
+}
+.content-green{
+  background: linear-gradient(to right, rgba(101,83,47,1), rgba(171,149,106,1));
+  padding: 5px 1px;
+}
+
+.content-green h1{
+  /* padding: 50px ; */
+}
+body {
+/*    background: gold;*/
+    font-family: 'Lora', serif;
+    margin: 0;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 900;
+}
+section h1.difference{
+  font-size: 5.5rem;
+  -webkit-margin-after: -5rem;
+  -webkit-margin-before: 3rem;
+}
+
+body h1{
+  /* margin-top: 20px; */
+  font-size: 5rem;
+  font-weight: bold;
+  font-style: oblique;
+}
+ h1,h3{
+   font-size: 3rem;
+   -webkit-margin-after: 0;
+   -webkit-margin-before: 0;
+ }
+ .tab-wrapper img{
+   margin: 2vw auto;
+   max-height: 500px;
+ }
+ .tab-wrapper{
+   width: 100%;
+ }
+ .tab-wrapper h3{
+   margin-top: 1vw;
+   font-size: 6.3vw;
+ }
+ /* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  margin: 2vw auto;
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    transition: 0.3s;
+    zoom:2;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+ h2{
+   font-size: 4vw;
+   background: rgba(101,83,47,0.5);
+   padding-top: 1.5vw;
+   padding-bottom: 1.5vw;
+ }
+ p{
+   font-size: 1.5rem;
+   line-height: 200%;
+   text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  margin-top: -1.5vw;
+ }
+blockquote h1{
+  font-style: italic;
+  font-size: 7rem;
+  -webkit-margin-after: 3.5rem;
+  -webkit-margin-before: 3.5rem;
+}
+
+.btn a{
+  border-radius: 8px;
+    text-decoration: none;
+    background: rgba(14,59,67,.8);
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+    display: inline-block;
+  }
+
+  .btn{
+    padding-bottom: 2rem;
+    margin-top: -4.5rem;
+  }
+
+.title{
+  background: rgba(101,83,47,0.5);
+  -webkit-margin-before: 2rem;
+  margin-bottom: 3rem;
+  padding: 1rem 2vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.faq{
+  text-align: left;
+  font-size: 2vw;
+}
+dt {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: .25em;
+    clear: left;
+    text-align: left;
+    font-weight: bold;
+}
+dd {
+    font-style: italic;
+    float: left;
+    width: 50%;
+    margin: 0 0 4vw 1.5vw;
+}
+dd:after {
+  content:"";clear:both;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 1.5vw; /* Place the button at the bottom of the page */
+    right: 2vw; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #65532F; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row p{
+  margin-top:0.1vw;
+}
+/* Header and Footer
+-----------------------------------*/
+
+header {
+    background-image:url(../img/header-1.jpg);
+    display: block;
+    min-height: 60vw;
+    text-align: center;
+}
+
+header h1{
+  padding: 7% 0 0 0;
+  font-size: 6rem;
+}
+
+header p{
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.3rem;
+  -webkit-margin-before: none;
+  -webkit-margin-after: none;
+    -webkit-margin-start: none;
+    -webkit-margin-end: none;
+}
+footer {
+  display: inline-block;
+  width: 100%;
+  background-color: #0E3B43;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 6vw;
+  padding-top: .1rem;
+}
+footer p {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-left: 1vw;
+  margin-top: 1vh;
+  text-align-last: left;
+}
+.top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000;
+}
+/* header h1, header h2 {
+    color: #8D99AE;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center
+}
+
+.info a{
+    padding: 20px;
+    display: inline-block;
+} */

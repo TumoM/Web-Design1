@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Board - The Imvelo Foundation</title>
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="..\CSS\styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../CSS/nav-bar.css" type="text/css" media="all">
+    <script src="..\JS\main.js"></script>
+    <link rel=”stylesheet” id=”font-awesome-css” href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <script src=”www.ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+  <header>
+    <nav>
+      <div class="navbar" id="mynavbar">
+      <a href="..\index.html" >Home</a>
+      <div class="dropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+          <a href="mission.html">Mission and Vision</a>
+          <a href="history.html">History</a>
+          <a href="faq.html">Frequently Asked Questions</a>
+          <a href="board.html" class="active">Board</a>
+          <a href="staff.html">Staff</a>
+        </div>
+      </div>
+      <a href="../projects/project.html">Projects</a>
+      <div class="dropdown">
+        <button class="dropbtn">Get involved
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../involved/donate.html">Donate</a>
+          <a href="../involved/shop.html">Online shop</a>
+          <a href="../involved/volunteer.html">Volunteer</a>
+          <a href="../involved/photographers.html">Photographers</a>
+          <a href="../involved/green.html">Going green</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">News
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../news/news.html">News articles</a>
+          <a href="../news/events.html">Events calendar</a>
+          <a href="../news/letter.html">Newsletters</a>
+          <a href="../news/gallary.html">Image galleries</a>
+          <a href="../news/blog.html">Genereal blog</a>
+          <a href="../news/photo-blog.html">Photo blog</a>
+          <a href="../news/careers.html">Careers</a>
+        </div>
+      </div>
+      <a href="../contact/contact.html">Cantact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    </nav>
+    <div class="index-header">
+        <h1>Our Board of Directors</h1>
+        <p>The brains of the operation</p>
+    </div>
+  </header
+
+  <main>
+    <section >
+    <!-- Buttons to choose list or grid view -->
+    <div style="margin: 1vw auto; font-size:2vw; zoom:5vw">
+    <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+    <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+  </div>
+    <div class="row">
+      <div class="column" ;">
+            <img src="../img/board1.jpg" height="300" width="300"/>
+            <p>Jack Hunter</p>
+          </div>
+          <div class="column" ;">
+            <img src="../img/board4.jpg" height="300" width="300"/>
+            <p>Thabo Fuka</p>
+          </div>
+        </div>
+    <div class="row">
+        <div class="column" ;">
+          <img src="../img/board2.jpg" height="300" width="300"/>
+          <p>Heather Samson</p>
+        </div>
+        <div class="column" ;">
+          <img src="../img/board3.jpg" height="300" width="300"/>
+          <p>Daniel Hunter</p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="column" ;">
+            <img src="../img/board5.jpg" height="300" width="300"/>
+            <p>Patrick Mthamba</p>
+          </div>
+          <div class="column" ;">
+            <img src="../img/board6.jpg" height="300" width="300"/>
+            <p>Samatha Cooper</p>
+          </div>
+        </div>
+      </section>
+  </main>
+
+</body>
+<footer>
+        <p>Copyright Imvelo &copy; 2018 Designed by Tumo Masire</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+
+</html>

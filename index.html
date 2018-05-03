@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Imvelo Foundation</title>
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="CSS\styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="CSS\nav-bar.css" type="text/css" media="all">
+    <script src="JS\main.js"></script>
+    <link rel=”stylesheet” id=”font-awesome-css” href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- flexslider dependencies -->
+    <link rel="stylesheet" href="flex\flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="flex\jquery.flexslider.js"></script>
+
+    <!-- The js clock -->
+    <link rel="stylesheet" href="CSS\clockStyle.css" type="text/css" media="all">
+    <script src="JS\clockScript.js" defer></script>
+</head>
+
+<body>
+  <script src=”www.ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+  <header>
+    <nav>
+      <div class="navbar" id="mynavbar">
+      <a href="index.html" class="active" >Home</a>
+      <div class="dropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+          <a href="about/mission.html" >Mission and Vision</a>
+          <a href="about/history.html">History</a>
+          <a href="about/faq.html">Frequently Asked Questions</a>
+          <a href="about/board.html">Board</a>
+          <a href="about/staff.html">Staff</a>
+        </div>
+      </div>
+      <a href="../projects/project.html">Projects</a>
+      <div class="dropdown">
+        <button class="dropbtn">Get involved
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="involved/donate.html">Donate</a>
+          <a href="involved/shop.html">Online shop</a>
+          <a href="involved/volunteer.html">Volunteer</a>
+          <a href="involved/photographers.html">Photographers</a>
+          <a href="involved/green.html">Going green</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">News
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="news/news.html">News articles</a>
+          <a href="news/events.html">Events calendar</a>
+          <a href="news/letter.html">Newsletters</a>
+          <a href="news/gallary.html">Image galleries</a>
+          <a href="news/blog.html">Genereal blog</a>
+          <a href="news/photo-blog.html">Photo blog</a>
+          <a href="news/careers.html">Careers</a>
+        </div>
+      </div>
+      <a href=".contact/contact.html">Cantact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    </nav>
+    <div class="index-header">
+        <h1>The Imvelo Foundation</h1>
+        <p>Investing in the Future of Human Potential</p>
+    </div>
+  </header
+
+  <main>
+    <section >
+      <h1 class="title">
+        At A Glance
+      </h1>
+
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/item1.jpg" />
+            <p class="flex-caption">Picture 1</p>
+          </li>
+          <li>
+            <img src="img/item2.jpg" />
+            <p class="flex-caption">Picture 2</p>
+          </li>
+          <li>
+            <img src="img/item3.jpg" />
+            <p class="flex-caption">Picture 3</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-green">
+      <blockquote>
+          <h1><q>
+            All that is necessary for evil to prevail,
+            is for good men and women to sit by and watch.
+          </q></h1>
+      </blockquote>
+    </section>
+    <section>
+      <div class="clockbox">
+          <h1 class="difference">Is It Time You Made A Difference?</h1>
+        <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+            <g id="face">
+                <circle class="circle" cx="300" cy="300" r="253.9"/>
+                <path class="hour-marks" d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6"/>
+                <circle class="mid-circle" cx="300" cy="300" r="16.2"/>
+            </g>
+            <g id="hour">
+                <path class="hour-arm" d="M300.5 298V142"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+            <g id="minute">
+                <path class="minute-arm" d="M300.5 298V67"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+            <g id="second">
+                <path class="second-arm" d="M300.5 350V55"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+        </svg>
+    </div>
+    <div class="btn"><a href="involved/donate.html">Donate Now!!!</a></div>
+    </section>
+  </main>
+
+<script type="text/javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "fade"
+  });
+});
+</script>
+</body>
+<footer>
+        <p>Copyright Imvelo &copy; 2018 Designed by Tumo Masire</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+
+</html>
